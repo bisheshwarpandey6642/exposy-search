@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import ReactDom from 'react-dom';
+import React from 'react';
 import './Demo.css'
 // import About from './About.js';
 import 'tachyons'
-import {Link} from 'react-router-dom';
+
 
 const Footer = () =>
 {
