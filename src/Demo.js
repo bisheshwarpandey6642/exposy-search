@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import ReactDom from 'react-dom';
+import React from 'react';
+
 import './Demo.css'
-// import About from './About.js';
+
 import 'tachyons'
 import {Link} from 'react-router-dom';
 
@@ -23,7 +23,7 @@ const Demo = () =>
 //     render()
 //     {
 //         return <div className = "namee"> 
-//          <h1>hello world</h1>
+//          <h1>hello world</h1> 
 //          <p>jello khaogay</p>
 //          </div>
 //     }

@@ -71,17 +71,19 @@ class Contact extends Component
            // eslint-disable-next-line array-callback-return
            this.state.people.filter(searching(this.state.hand)).map(function(person){
               return( 
-              <table>
+              <table key={person.id}>
+                 <thead>
                   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>age</th>
-  </tr>
-                 <tr>
+                   <th>Firstname</th>
+                   <th>Lastname</th>
+                   <th>age</th>
+                   </tr>
+               <tr>
               <td>{person.first}</td>
               <td>{person.last}</td>
               <td>{person.age}</td>
-                 </tr>
+               </tr>
+               </thead>
               </table>
              
               )
