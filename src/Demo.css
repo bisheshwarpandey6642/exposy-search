@@ -1,0 +1,34 @@
+*{margin: 0; padding: 0;}
+
+.namee
+{
+width: 200px;
+height: 200px;
+}
+.Demo
+{
+    width: 100%;
+    height:100px;
+    background: #6ab04c;
+    color:white;
+}
+
+.Demo ul
+{
+height: 100px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.Demo ul li
+{
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.Demo ul li a
+{
+    text-decoration: none;
+}
